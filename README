@@ -1,0 +1,20 @@
+# NJS CLI Tools
+
+## Install
+> npm install -g njs-cli
+
+## How to use
+
+### clone
+> $ njs-cli clone underscore
+>
+> type: git url: git://github.com/documentcloud/underscore.git
+>
+> Cloning into 'underscore'...
+>
+> $ cd underscore
+
+### TODO
+* readme
+* statistics
+* ...

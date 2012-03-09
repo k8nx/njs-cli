@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+var njs = require(__dirname+'/../lib/njs');
+
+var node = process.argv.shift();
+var file = process.argv.shift();
+var command = process.argv.shift();
+
+if (command) {
+  njs.load(command, process.argv);
+} else {
+  console.error('Usage: njs-cli COMMAND');
+  console.error('where COMMAND is one of:');
+  console.error('   clone PACKAGE_NAME : clone a repository into a new directory');
+  process.exit(1);
+}

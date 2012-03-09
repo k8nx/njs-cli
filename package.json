@@ -1,0 +1,24 @@
+{
+  "author": "dgkim84 <dgkim84@gmail.com> (http://startic.kr)",
+  "name": "njs-cli",
+  "description": "NJS CLI Tools (http://startic.kr/njs)",
+  "version": "0.1.0",
+  "homepage": "http://github.com/dgkim84/njs-cli",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dgkim84/njs-cli.git"
+  },
+  "bin": {
+    "njs-cli": "./bin/njs-cli"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "~0.6.0"
+  },
+  "dependencies": {
+    "request": "2.9.3"
+    , "step": "0.0.5"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
